@@ -17,7 +17,7 @@ public class MenuButtons : MonoBehaviour
         
     }
 
-    public void WWButton()
+    public void LoZWWButton()
     {
         SceneManager.LoadScene(1);
     }
@@ -25,5 +25,10 @@ public class MenuButtons : MonoBehaviour
     public void RECVXButton()
     {
         SceneManager.LoadScene(2);
+    }
+
+    public void LoZTPButton()
+    {
+        SceneManager.LoadScene(3);
     }
 }
