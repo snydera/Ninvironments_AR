@@ -9,7 +9,7 @@ public class MenuButtons : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(MRMRLogo());
+        
     }
 
     // Update is called once per frame
@@ -18,25 +18,26 @@ public class MenuButtons : MonoBehaviour
         
     }
 
-    IEnumerator MRMRLogo()
-    {
-        yield return new WaitForSeconds(3);
-        transform.Find("MRMR Logo Background").GetComponent<Image>().enabled = false;
-    }
+
 
     public void LoZWWButton()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-    public void RECVXButton()
     {
         SceneManager.LoadScene(2);
     }
 
-    public void LoZTPButton()
+    public void RECVXButton()
     {
         SceneManager.LoadScene(3);
+    }
+
+    public void LoZTPButton()
+    {
+        SceneManager.LoadScene(4);
+    }
+
+    public void SA2BButton()
+    {
+        SceneManager.LoadScene(5);
     }
 
 }

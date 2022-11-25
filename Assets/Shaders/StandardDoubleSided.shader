@@ -6,6 +6,7 @@ Shader "Standard Double Sided"
         _MainTex("Albedo", 2D) = "white" {}
 
         _Cutoff("Alpha Cutoff", Range(0.0, 1.0)) = 0.5
+        //_Cutoff("Base Alpha cutoff", Range(0,.9)) = .5
 
         _Glossiness("Smoothness", Range(0.0, 1.0)) = 0.5
         _GlossMapScale("Smoothness Scale", Range(0.0, 1.0)) = 1.0
